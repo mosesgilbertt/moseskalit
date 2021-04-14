@@ -1,0 +1,83 @@
+<!doctype html>
+<html>
+<head>
+  <!-- ... -->
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="/tailwind.css" rel="stylesheet">
+  <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300&display=swap" rel="stylesheet">
+  <style>
+      * {
+        font-family: 'Poppins', sans-serif;
+        font-size: 0.875rem;
+        line-height: 1.25rem;
+      }
+      .tengah .foto{
+            margin-left: auto;
+            margin-right: auto;
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+      }
+      .tengah {
+          height: 300px !important;
+          width: auto;
+      }
+      .bawah {
+          width: 32px;
+          height: 32px;
+      }
+  </style>
+</head>
+<body>
+<div class="font-sans bg-indigo-500 text-white box-sizing h-10 w-auto mt-0">
+
+    <div class="center py-2"><p class="mx-auto md:text-center"><b>My Personal Information</b></p></div>
+</div>
+<div class="tengah font-sans bg-gray-800 text-white box-sizing h-500px w-auto">
+    <div class="py-24">
+        <img class="mx-auto my-auto foto" src="1.jpg">
+        <p class="mx-auto my-auto md:text-center"><b>Bill Gates</b></p>
+        <p class="mx-auto my-auto md:text-center">Ex-Microsoft CEO</p>
+    </div>
+</div>
+<div class="grid gap-x-8 gap-y-4 grid-cols-2">
+    <div class="px-28 my-5">
+        <h1><b>My Story</b></h1>
+        <a>
+            William Henry "BIlII" Gates III (lahir di Seattle, Washington, 28 Oktober 1955;<br>
+            umur 65 tahun) adalah seorang tokoh bisnis, investor, filantropis, penulis asal<br>
+            Amerika Serikat, serta mantan CEO yang saat ini menjabat sebagai ketua<br>
+            Microsoft, perusahaan perangkat lunak yang ia dirikan bersama Paul Allen.[3]<br>
+            la menduduki peringkat tetap di antara orang-orang terkaya di dunia dan<br>
+            menempati peringkat pertama sejak 1995 hingga 2009, tidak termasuk 2008<br>
+            ketika la turun ke peringkat tiga.
+        </a>
+    </div>
+    <div class="my-5">
+        <h1><b>Personal Information</b></h1>
+        <div class="divide-y-2 divide-black divide-opacity-10">
+            <div class="mt-5">Age: <b>65 years old</b></div>
+            <div class="mt-5">Phone: <b>+62-8131-1351-XXX</b></div>
+            <div class="mt-5">Email: <b>bill.gates@microsoft.com</b></div>
+          </div>
+    </div>
+  </div>
+  <div>
+    <p class="mx-auto md:text-center"><b>Find me in!</b></p>
+  </div>
+  <div class="flex p-auto mt-5">
+    <div> 
+        <img class="pl-96 pr-5"src="git.png">
+    </div>
+    <div>
+        <img class="pl-80"src="linkedin.png">
+    </div>
+    <div class="pl-80">
+        <img class="bawah"  src="twitter.png">
+    </div>
+  </div>
+</body>
+</html>
